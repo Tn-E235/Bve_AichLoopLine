@@ -1,0 +1,163 @@
+BveTs Map 2.02
+#-------------------------------------------------------------------------------
+# 高架壁
+19475;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+20500;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+20900;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+21750;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+22400;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+22525;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+23850;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+24950;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+26550;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+27225;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+28600;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+28900;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+29900;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+30075;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+30175;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+30225;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+30275;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+30610;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+
+31200;  Repeater['wallL'].Begin0('L',1,5,5,'Wall_QN_L5m');
+        Repeater['wallR'].Begin0('R',1,5,5,'Wall_QN_R5m');
+31725;  Repeater['wallL'].End();
+        Repeater['wallR'].End();
+#-------------------------------------------------------------------------------
+# 土手
+21750;  Repeater['dikeL'].Begin0('L',1,5,5,'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+        Repeater['dikeR'].Begin0('R',1,5,5,'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+23850;  Repeater['dikeL'].End();
+        Repeater['dikeR'].End();
+24950;  Repeater['dikeL'].Begin0('L',1,5,5,'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+        Repeater['dikeR'].Begin0('R',1,5,5,'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+26550;  Repeater['dikeL'].End();
+        Repeater['dikeR'].End();
+
+27215;  Repeater['dikeL'].Begin0('L',1,5,5,'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+        Repeater['dikeR'].Begin0('R',1,5,5,'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+27250;  Repeater['dikeL'].End();
+        Repeater['dikeR'].End();
+27850;  Repeater['dikeL'].Begin0('L',1,5,5,'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+        Repeater['dikeR'].Begin0('R',1,5,5,'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+28600;  Repeater['dikeL'].End();
+        Repeater['dikeR'].End();
+29330;  Repeater['dikeL'].Begin0('L',1,5,5,'DikeGrs5mL1','DikeGrs5mL2','DikeGrs5mL3','DikeGrs5mL4','DikeGrs5mL5','DikeGrs5mL6');
+        Repeater['dikeR'].Begin0('R',1,5,5,'DikeGrs5mR1','DikeGrs5mR2','DikeGrs5mR3','DikeGrs5mR4','DikeGrs5mR5','DikeGrs5mR6');
+29435;  Repeater['dikeL'].End();
+        Repeater['dikeR'].End();
+#-------------------------------------------------------------------------------
+# トンネル
+# 梅坪
+# 保見
+27250;  //Structure['tunnel_1'].put0(,,);
+        Repeater['tunnel'].Begin0(   ,1,25,25,'tunnel_1');
+27225;  Structure['tunnelDike1_L'].put0(,,);
+        Structure['tunnelDike1_R'].put0('R',,);
+27850;  Repeater['tunnel'].End();
+# 篠原
+29335;  Repeater['tunnelDike1_L'].Begin0(   ,1,12.5,12.5,'tunnelDike1_L');
+        Repeater['tunnelDike1_R'].Begin0('R',1,12.5,12.5,'tunnelDike1_R');
+29435;  //Structure['tunnel_1'].put0(,,);
+        Repeater['tunnel'].Begin0(   ,1,25,25,'tunnel_1');
+        Repeater['tunnelDike1_L'].End();
+        Repeater['tunnelDike1_R'].End();
+29890;  Repeater['tunnel'].End();
+
+#-------------------------------------------------------------------------------
+# 新豊田駅
+#-------------------------------------------------------------------------------
+# 愛環梅坪駅
+#-------------------------------------------------------------------------------
+# 四郷駅
+#-------------------------------------------------------------------------------
+# 貝津駅
+#-------------------------------------------------------------------------------
+# 保見駅
+#-------------------------------------------------------------------------------
+# 篠原駅
+#-------------------------------------------------------------------------------
+# 八草駅
+31825;				      Repeater['form_1_L'].Begin0(   ,1,10,10,'yakusa_form_2_L');
+							      Repeater['form_1_R'].Begin0('U',1,10,10,'yakusa_form_2_R');
+31925;				      Repeater['form_1_L'].Begin0(   ,1,10,10,'yakusa_form_1_L');
+							      Repeater['form_1_R'].Begin0('U',1,10,10,'yakusa_form_1_R');
+							      Structure['yakusa_pole_1_long_L'].Put(   ,0,0,0,0,0,0,1,10);
+							      Structure['yakusa_pole_1_long_R'].Put('U',0,0,0,0,0,0,1,10);
+31825-0.15;	        Repeater['pole_1_L'].Begin0(   ,1,10,10,'yakusa_pole_1_long_L','yakusa_pole_1_long_L','yakusa_pole_1_long_L');
+							      Repeater['pole_1_R'].Begin0('U',1,10,10,'yakusa_pole_1_long_R','yakusa_pole_1_long_R','yakusa_pole_1_long_R');
+31975;				      Repeater['form_1_L'].End();
+							      Repeater['form_1_R'].End();
+31975-10;		        Repeater['pole_1_L'].End();
+						        Repeater['pole_1_R'].End();
+31975-0.30;	        Structure['yakusa_pole_1_long_L'].Put(   ,0,0,0,0,0,0,1,10);
+                    Structure['yakusa_pole_1_long_R'].Put('U',0,0,0,0,0,0,1,10);
+
+31825;	            Structure['yakusa_foot_1_L'].Put(   ,0,0,0,0,0,0,1,10);
+                    Structure['yakusa_foot_1_R'].Put('U',0,0,0,0,0,0,1,10);
+31835-0.15;	        Repeater['foot_1_L'].Begin0(   ,1,10,10,'yakusa_foot_1_L');
+							      Repeater['foot_1_R'].Begin0('U',1,10,10,'yakusa_foot_1_R');
+31975-10;		        Repeater['foot_1_L'].End();
+							      Repeater['foot_1_R'].End();
+
+31925-0.30;	        Structure['yakusa_foot_1_L'].Put(   ,0,0,0,0,0,0,1,10);
+							      Structure['yakusa_foot_1_R'].Put('U',0,0,0,0,0,0,1,10);
+
+31825;				      Structure['yakusa_form_endFence_L_1'].Put(   ,0,0,0,0,0,0,1,10);
+							      Structure['yakusa_form_endFence_R_1'].Put('U',0,0,0,0,0,0,1,10);
+31825-0.185;				Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*0;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*1;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*2;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*3;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*4;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*5;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*6;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*7;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*8;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*9;		Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*10;	Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*11;	Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*12;	Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*13;	Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+31835-0.185+10*14;	Structure['yakusa_pole_center_R'].PutBetWeen(,'u',0);
+
+31925;				      Repeater['form_roof_pole_H_L_1'].Begin(   ,-6.15,6.15,0,0,0,0,1,10,10,'yakusa_form_roof_pole_H_L');
+										Repeater['form_roof_pole_H_R_1'].Begin('U', 6.15,6.15,0,0,0,0,1,10,10,'yakusa_form_roof_pole_H_R');
+31975;				      Repeater['form_roof_pole_H_L_1'].End();
+                    Repeater['form_roof_pole_H_R_1'].End();
+
+31925;				      Repeater['form_roof_pole_H_L_2'].Begin(   ,-1.15,6.18,0,0,0, 7,1,10,10,'yakusa_form_roof_pole_H_L');
+										Repeater['form_roof_pole_H_R_2'].Begin('U', 1.15,6.18,0,0,0,-7,1,10,10,'yakusa_form_roof_pole_H_R');
+31975;				      Repeater['form_roof_pole_H_L_2'].End();
+		 								Repeater['form_roof_pole_H_R_2'].End();
+31975;				      Structure['yakusa_form_stair_L'].Put(   ,0,0,0,0,0,0,1,10);
+									  Structure['yakusa_form_stair_R'].Put('U',0,0,0,0,0,0,1,10);
+31975+18.5;         Structure['yakusa_ekisya'].PutBetWeen(,'u',0);

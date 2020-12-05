@@ -1,0 +1,155 @@
+BveTs Structure List 1.00
+
+#-------------------------------------------------------------------------------
+# GeneralStr_png
+DikeGrs5mL1,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mL1.x
+DikeGrs5mL2,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mL2.x
+DikeGrs5mL3,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mL3.x
+DikeGrs5mL4,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mL4.x
+DikeGrs5mL5,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mL5.x
+DikeGrs5mL6,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mL6.x
+
+DikeGrs5mR1,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mR1.x
+DikeGrs5mR2,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mR2.x
+DikeGrs5mR3,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mR3.x
+DikeGrs5mR4,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mR4.x
+DikeGrs5mR5,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mR5.x
+DikeGrs5mR6,                Structures\GeneralStr_png\ACCC\Ground\DikeGrs5mR6.x
+Grass,                      Structures\GeneralStr_png\ACCC\Ground\Grass.x
+
+FmBox,                      Structures\GeneralStr_png\Accessory\Cross\CrossAcc\FmBox.x
+shoken1,                    Structures\GeneralStr_png\Accessory\Cross\CrossAcc\shoken1.x
+Cr_sig1_L,                  Structures\GeneralStr_png\Accessory\Cross\Cr_sig1_L.x
+Cr_sig1_R,                  Structures\GeneralStr_png\Accessory\Cross\Cr_sig1_R.x
+Cr_barL1_045,               Structures\GeneralStr_png\Accessory\Cross\Cr_barL_045.x
+Cr_barR1_045,               Structures\GeneralStr_png\Accessory\Cross\Cr_barR_045.x
+Cr_barL2_045,               Structures\GeneralStr_png\Accessory\Cross\Cr_barL2_045.x
+Cr_barR2_045,               Structures\GeneralStr_png\Accessory\Cross\Cr_barR2_045.x
+
+PoleTrs05A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs05A.x
+PoleTrs05B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs05B.x
+PoleTrs06A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs06A.x
+PoleTrs06B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs06B.x
+PoleTrs07A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07A.x
+PoleTrs07B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs07B.x
+PoleTrs08A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08A.x
+PoleTrs08B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs08B.x
+PoleTrs09A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09A.x
+PoleTrs09B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs09B.x
+PoleTrs10A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10A.x
+PoleTrs10B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs10B.x
+PoleTrs11A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11A.x
+PoleTrs11B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs11B.x
+PoleTrs12A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12A.x
+PoleTrs12B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs12B.x
+PoleTrs14A,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14A.x
+PoleTrs14B,                 Structures\GeneralStr_png\Accessory\E_Poles\PoleTruss\PoleTrs14B.x
+
+FenceGray,                  Structures\GeneralStr_png\Accessory\Fence\FenceGray.x
+FenceGrayE,                 Structures\GeneralStr_png\Accessory\Fence\FenceGrayE.x
+
+Curve_P_nn,                 Structures\GeneralStr_png\Accessory\Posts\CurvePosts\Curve_P_nn.x
+GradualDiminution_Ps,       Structures\GeneralStr_png\Accessory\Posts\CurvePosts\GradualDiminution_Ps.x
+
+Gp_DU,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_DU.x
+Gp_LD,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_LD.x
+Gp_LU,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_LU.x
+Gp_UD,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UD.x
+Gp_UL,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UL.x
+Gp_UU,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_UU.x
+Gp_DD,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_DD.x
+Gp_DL,                      Structures\GeneralStr_png\Accessory\Posts\GradientPost\Gp_DL.x
+
+Bg_fine_summer,             Structures\GeneralStr_png\BG\Bg_fine_summer.x
+
+DBallast_Base_Dbl,          Structures\GeneralStr_png\Rail\Ballast11\DBallast_Base_Dbl.x
+DBallast_5m,                Structures\GeneralStr_png\Rail\Ballast11\DBallast_5m.x
+BallastPC_K_5a,             Structures\GeneralStr_png\Rail\Ballast01\BallastPC_K_5a.x
+RailBridge_5,               Structures\GeneralStr_png\Rail\RailBridge_5.x
+BridgeRail_5,               Structures\GeneralStr_png\Rail\BridgeRail_5.x
+
+point1L,                    Structures\GeneralStr_png\Rail\Point\point1L.x
+point1R,                    Structures\GeneralStr_png\Rail\Point\point1R.x
+point2L,                    Structures\GeneralStr_png\Rail\Point\point2L.x
+point2R,                    Structures\GeneralStr_png\Rail\Point\point2R.x
+PointM_NS,                  Structures\GeneralStr_png\Rail\Point\PointM_NS.x
+
+WallUnder_QN_25m_hukusen,   Structures\GeneralStr_png\Wall\WallUnder_QN_25m_hukusen.x
+
+WallL_25m,                  Structures\GeneralStr_png\Wall\seto_k\WallL.x
+Wall_QN_L5m,                Structures\GeneralStr_png\Wall\Wall_QN_L5m.x
+Wall_QN_R5m,                Structures\GeneralStr_png\Wall\Wall_QN_R5m.x
+
+b01mL,                      Structures\GeneralStr_png\Nature\bushM\b01mL.x
+b02mL,                      Structures\GeneralStr_png\Nature\bushM\b02mL.x
+b03mL,                      Structures\GeneralStr_png\Nature\bushM\b03mL.x
+b04mL,                      Structures\GeneralStr_png\Nature\bushM\b04mL.x
+b05mL,                      Structures\GeneralStr_png\Nature\bushM\b05mL.x
+b11mL,                      Structures\GeneralStr_png\Nature\bushM\b11mL.x
+b12mL,                      Structures\GeneralStr_png\Nature\bushM\b12mL.x
+b13mL,                      Structures\GeneralStr_png\Nature\bushM\b13mL.x
+
+tree01_S,                   Structures\GeneralStr_png\Nature\trees\tree01_S.x
+tree02_S,                   Structures\GeneralStr_png\Nature\trees\tree02_S.x
+tree03_S,                   Structures\GeneralStr_png\Nature\trees\tree03_S.x
+tree04_S,                   Structures\GeneralStr_png\Nature\trees\tree04_S.x
+tree05_S,                   Structures\GeneralStr_png\Nature\trees\tree05_S.x
+# -----------------------------------------------------------------------------
+# Tn_E235
+line_red,                   Structures\Tn_E235\Rail\line_red.x
+
+tunnel_1,                   Structures\Tn_E235\Tunnel\tunnel_1.x
+tunnel_shadow,              Structures\Tn_E235\Tunnel\tunnel_shadow.x
+tunnelDike1_R,              Structures\Tn_E235\Tunnel\tunnelDike1_R.x
+tunnelDike1_L,              Structures\Tn_E235\Tunnel\tunnelDike1_L.x
+
+yakusa_foot_1_L,            Structures\Tn_E235\Station\Yakusa\foot_1_L.x
+yakusa_foot_1_R,            Structures\Tn_E235\Station\Yakusa\foot_1_R.x
+yakusa_form_1_L,            Structures\Tn_E235\Station\Yakusa\form_1_L.x
+yakusa_form_1_R,            Structures\Tn_E235\Station\Yakusa\form_1_R.x
+yakusa_pole_1_long_L,       Structures\Tn_E235\Station\Yakusa\pole_1_long_L.x
+yakusa_pole_1_long_R,       Structures\Tn_E235\Station\Yakusa\pole_1_long_R.x
+yakusa_pole_1_short_L,      Structures\Tn_E235\Station\Yakusa\pole_1_short_L.x
+yakusa_pole_1_short_R,      Structures\Tn_E235\Station\Yakusa\pole_1_short_R.x
+yakusa_pole_center_L,       Structures\Tn_E235\Station\Yakusa\pole_center_L.x
+yakusa_pole_center_R,       Structures\Tn_E235\Station\Yakusa\pole_center_R.x
+yakusa_form_endFence_L_1,   Structures\Tn_E235\Station\Yakusa\form_endFence_L_1.x
+yakusa_form_endFence_R_1,   Structures\Tn_E235\Station\Yakusa\form_endFence_R_1.x
+yakusa_form_2_L,            Structures\Tn_E235\Station\Yakusa\form_2_L.x
+yakusa_form_2_R,            Structures\Tn_E235\Station\Yakusa\form_2_R.x
+yakusa_form_roof_pole_H_L,  Structures\Tn_E235\Station\Yakusa\form_roof_pole_H_L.x
+yakusa_form_roof_pole_H_R,  Structures\Tn_E235\Station\Yakusa\form_roof_pole_H_R.x
+yakusa_form_stair_L,        Structures\Tn_E235\Station\Yakusa\form_stair_L.x
+yakusa_form_stair_R,        Structures\Tn_E235\Station\Yakusa\form_stair_R.x
+yakusa_ekisya,              Structures\Tn_E235\Station\Yakusa\ekisya.x
+# -----------------------------------------------------------------------------
+# とまり
+# -----------------------------------------------------------------------------
+# FCS_TM
+Sig2bGR4_LED,               Structures\FCS_TM\ColorSignal\Sig2bGR4_LED.x
+Sig2bGR0_LED,               Structures\FCS_TM\ColorSignal\Sig2bGR0_LED.x
+Sig2bYR0_LED,               Structures\FCS_TM\ColorSignal\Sig2bYR0_LED.x
+Sig2bYR2_LED,               Structures\FCS_TM\ColorSignal\Sig2bYR2_LED.x
+
+Sig3b0_LED,                 Structures\FCS_TM\ColorSignal\Sig3b0_LED.x
+Sig3b2_LED,                 Structures\FCS_TM\ColorSignal\Sig3b2_LED.x
+Sig3b4_LED,                 Structures\FCS_TM\ColorSignal\Sig3b4_LED.x
+
+Flare20,                    Structures\FCS_TM\ColorSignal\Flare20.x
+Flare22,                    Structures\FCS_TM\ColorSignal\Flare22.x
+Flare24,                    Structures\FCS_TM\ColorSignal\Flare24.x
+Flare30,                    Structures\FCS_TM\ColorSignal\Flare30.x
+Flare32,                    Structures\FCS_TM\ColorSignal\Flare32.x
+Flare34,                    Structures\FCS_TM\ColorSignal\Flare34.x
+
+Sig_Base,                   Structures\FCS_TM\SigPole\Sig_Base.x
+Sig_Base_Step,              Structures\FCS_TM\SigPole\Sig_Base_Step.x
+Sig_Pole,                   Structures\FCS_TM\SigPole\Sig_Pole.x
+# -----------------------------------------------------------------------------
+# Nakano_Kazusa
+stop_01,                    Structures\Nakano_Kazusa\stop\stop_01.x
+stop_02,                    Structures\Nakano_Kazusa\stop\stop_02.x
+stop_03,                    Structures\Nakano_Kazusa\stop\stop_03.x
+# -----------------------------------------------------------------------------
+# Nagoya_Common
+#-------------------------------------------------------------------------------

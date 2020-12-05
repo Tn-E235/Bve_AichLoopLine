@@ -1,0 +1,123 @@
+BveTs Map 2.02
+#------------------------------------------------------------------------------
+0;      Repeater['rail_0'].Begin0(,3,5,5,'BallastPC_K_5a');
+19975;  Curve.BeginTransition();
+20015;  Curve.Begin( 1000, 0.030);
+20460;  Curve.BeginTransition();
+20500;  Curve.End();
+
+22100;  Curve.BeginTransition();
+22140;  Curve.Begin(-1000,-0.040);
+22890;  Curve.BeginTransition();
+22930;  Curve.End();
+
+22955;  Curve.Begin(-477.818);
+22985;  Curve.End();
+
+23040;  Curve.BeginTransition();
+23055;  Curve.Begin( 1000, 0.01);
+23085;  Curve.BeginTransition();
+23100;  Curve.End();
+
+23235;  Curve.BeginTransition();
+23245;  Curve.Begin( 2800, 0.01);
+23285;  Curve.BeginTransition();
+23295;  Curve.End();
+
+23565;  Curve.BeginTransition();
+23580;  Curve.Begin( 1000, 0.015);
+23630;  Curve.BeginTransition();
+23645;  Curve.End();
+
+23740;  Curve.Begin(-477.818);
+23771.1;  Curve.End();
+
+23900;  Curve.BeginTransition();
+23960;  Curve.Begin(-1000,-0.058);
+24895;  Curve.BeginTransition();
+24955;  Curve.End();
+
+26625;  Curve.BeginTransition();
+26685;  Curve.Begin( 1000, 0.058);
+26880;  Curve.BeginTransition();
+26940;  Curve.Begin( 1000, 0.000);
+26950;  Curve.Begin(362.828);
+26975;  Curve.End();
+
+27100;  Curve.BeginTransition();
+27120;  Curve.Begin( 1200, 0.017);
+27180;  Curve.BeginTransition();
+27200;  Curve.End();
+
+27550;  Curve.BeginTransition();
+27625;  Curve.Begin( 1000, 0.078);
+28025;  // 複合R
+
+28425;  Curve.BeginTransition();
+28500;  Curve.End();
+
+29740;  Curve.BeginTransition();
+29805;  Curve.Begin( -800,-0.065);
+30035;  Curve.BeginTransition();
+30100;  Curve.End();
+
+30230;  Curve.BeginTransition();
+30270;  Curve.Begin(-1400,-0.036);
+30310;  Curve.BeginTransition();
+30350;  Curve.End();
+
+31200;  Curve.BeginTransition();
+31225;  Curve.Begin( 1600, 0.000);
+31425;  Curve.BeginTransition();
+31450;  Curve.Begin( 1600, 0.020);
+32125;  Curve.BeginTransition();
+32150;  Curve.Begin( 1600, 0.000);
+
+19735;  // UL 10.0
+19720;  Gradient.BeginTransition();
+19750;  Gradient.Begin(10.0);
+20045;  // DD -6.0
+20021;  Gradient.BeginTransition();
+20069;  Gradient.Begin(-6.0);
+21150;  // UU 10.0
+21126;  Gradient.BeginTransition();
+21174;  Gradient.Begin(10.0);
+22300;  // DD-10.0
+22270;  Gradient.BeginTransition();
+22330;  Gradient.Begin(-10.0);
+22550;  // UU  7.5
+22524;  Gradient.BeginTransition();
+22576;  Gradient.Begin(7.5);
+22850;  // UD  1.8
+22841;  Gradient.BeginTransition();
+22859;  Gradient.Begin(1.8);
+23800;  // UD 10.0
+23788;  Gradient.BeginTransition();
+23812;  Gradient.Begin(10.0);
+24630;  // UD  6.0
+24624;  Gradient.BeginTransition();
+24636;  Gradient.Begin(6.0);
+25650;  // UD  9.0
+25645;  Gradient.BeginTransition();
+25655;  Gradient.Begin(9.0);
+26100;  // UD 10.0
+26098;  Gradient.BeginTransition();
+26102;  Gradient.Begin(10.0);
+27225;  // UD  9.0
+27223;  Gradient.BeginTransition();
+27226;  Gradient.Begin(9.0);
+27875;  // LU  0.0
+27861;  Gradient.BeginTransition();
+27889;  Gradient.Begin(0.0);
+28325;  // UD 10.0
+28310;  Gradient.BeginTransition();
+28340;  Gradient.Begin(10.0);
+30100;  // UD  2.3
+30088;  Gradient.BeginTransition();
+30112;  Gradient.Begin(2.3);
+30820;  // UD 10.0
+30808;  Gradient.BeginTransition();
+30832;  Gradient.Begin(10.0);
+31500;  // UD  5.0
+31492;  Gradient.BeginTransition();
+31508;  Gradient.Begin(5.0);

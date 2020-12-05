@@ -1,0 +1,34 @@
+BveTs Map 2.02
+#-------------------------------------------------------------------------------
+0;
+Structure.Load('List.txt');
+Station.Load('Station.csv');
+Signal.Load('Signals.csv');
+Signal.SpeedLimit(0,55,110,,,,,);
+include 'Setting.txt';
+#-------------------------------------------------------------------------------
+# 列車長
+// include '4Cars.txt';
+#-------------------------------------------------------------------------------
+# 停車駅設定
+$SHIN_TOYOTA   = 19475;
+$AIKAN_UMETUBO = 21575;
+$SHIGO         = 23500;
+$KAIDU         = 25500;
+$HOMI          = 26800;
+$SASABARA      = 29275;
+$YAKUSA        = 31975;
+$SHIN_TOYOTA;   Station['ST12'].Put(-1,-5, 5);
+$AIKAN_UMETUBO; Station['ST13'].Put(-1,-5, 5);
+$SHIGO;         Station['ST14'].Put( 1,-5, 5);
+$KAIDU;         Station['ST15'].Put(-1,-5, 5);
+$HOMI;          Station['ST16'].Put(-1,-5, 5);
+$SASABARA;      Station['ST17'].Put(-1,-5, 5);
+$YAKUSA;        Station['ST18'].Put(-1,-5, 5);
+# -----------------------------------------------------------------------------
+include 'Main.txt';
+include 'Tracks.txt';
+include 'Structure.txt';
+#-------------------------------------------------------------------------------
+Train.Add('tunnel_shadow_1','Structures\Tn_E235\Tunnel\tunnel_shadow.txt',,1);
+27250.1;  Train['tunnel_shadow_1'].Stop(0,0,0,0);

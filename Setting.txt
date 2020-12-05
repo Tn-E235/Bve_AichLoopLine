@@ -1,0 +1,57 @@
+BveTs Map 2.02
+#-------------------------------------------------------------------------------
+0;
+# 描画距離
+// DrawDistance.Change(1500);
+
+# 粘着係数
+Adhesion.Change(0.35, 0, 0.01);
+
+# 軌道変位
+Irregularity.Change(0.001267914, 0.0007924465, 0.0004992413, 50, 50, 50);
+
+# Fog設定
+// Fog.Interpolate(0.001,0.1,0.1,0.1); # 夜
+Fog.Interpolate(0.001,0.7,0.8,0.9);# 順光
+// Fog.Interpolate(0.001,0.4,0.5,0.6);# 逆光
+
+# 光源設定(日中)
+Light.Direction(45,90);
+
+# 光源設定(夜)
+// Light.Direction(50, 180);
+// Light.Diffuse(0.17, 0.14, 0.08);
+// Light.Ambient(0.10, 0.10, 0.10);
+
+# 運転台明るさ
+CabIlluminance.Interpolate(0.8);
+
+# 背景画像
+Background.Change('Bg_fine_summer');
+
+#
+$toyoakeB      = 1;
+$zengoB        = 1;
+$narumiB       = 1;
+$motokasaderaB = 1;
+$horitaB       = 1;
+
+# 速度制限区間に伴う地上子の設定
+$Deceleration = 3.0;        // 減速度(常用最大？)[km/h/s]
+$BrakingTime = 1.5;         // 非常制動が効き始めるまでの時間[s]
+
+$Integer_MAX_VALUE = 2147483647;
+
+# 台車1から台車2までの距離[m]
+$span = 14;
+
+# 軌間
+$GAUGE = 1.067;
+Curve.SetGauge($GAUGE);
+
+# 緩和曲線関数
+Curve.SetFunction(1);
+
+# カント回転中心位置
+$CURVE_R =  1.0*$GAUGE/2.0;
+$CURVE_L = -1.0*$GAUGE/2.0;

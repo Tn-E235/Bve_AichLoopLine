@@ -1,0 +1,7 @@
+bvets train 0.01
+
+[structure]
+key = tunnel_shadow
+distance = 0
+Z = 0
+span = 0

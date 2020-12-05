@@ -1,0 +1,150 @@
+BveTs Map 2.02
+#------------------------------------------------------------------------------
+19475;  Repeater['rail_U'].Begin0('U',3,5,5,'BallastPC_K_5a');
+0;      Track['U'].X.Interpolate( 3.75,0);
+        Track['U'].Y.Interpolate(-0.0001);
+19625;  Track['U'].X.Interpolate( 3.75,-477.818);
+19655;  Track['U'].X.Interpolate( 2.75,0);
+19685;  Track['U'].X.Interpolate( 1.00, 477.818);
+19715;  Track['U'].X.Interpolate( 0.00,0);
+
+22955;  Track['U'].X.Interpolate( 0.00, 477.818);
+22985;  Track['U'].X.Interpolate( 0.95,0);
+
+23040;  Track['U'].X.Interpolate( 4.4,-2000);
+23055;  Track['U'].X.Interpolate( 5.3,-1000);
+23085;  Track['U'].X.Interpolate( 6.5,-2000);
+23100;  Track['U'].X.Interpolate( 6.8,0);
+
+23235;  Track['U'].X.Interpolate( 9.2,-5600);
+23245;  Track['U'].X.Interpolate( 9.37,-2800);
+23285;  Track['U'].X.Interpolate( 9.72,-5600);
+23295;  Track['U'].X.Interpolate( 9.725,0);
+
+23565;  Track['U'].X.Interpolate( 9.75,-2000);
+23580;  Track['U'].X.Interpolate( 9.715,-1000);
+23630;  Track['U'].X.Interpolate( 8.115,-2000);
+23645;  Track['U'].X.Interpolate( 7.19,0);
+
+23740;  Track['U'].X.Interpolate( 1.01, 477.818);
+23771.1;  Track['U'].X.Interpolate( 0.00,0);
+
+26450;  Track['U'].X.Interpolate( 0.00, 477.818);
+26480;  Track['U'].X.Interpolate( 1.00,0);
+26510;  Track['U'].X.Interpolate( 2.75,-477.818);
+26540;  Track['U'].X.Interpolate( 3.75,0);
+
+26950;  Track['U'].X.Interpolate( 3.75,1/((1/1000)-(1/362.828)));
+26975;  Track['U'].X.Interpolate( 3.25,0);
+27040;  Track['U'].X.Interpolate( 0.55,477.818);
+27065;  Track['U'].X.Interpolate( 0.00,0);
+
+29075;  Track['U'].X.Interpolate( 0.00, 477.818);
+29105;  Track['U'].X.Interpolate( 1.00,0);
+29135;  Track['U'].X.Interpolate( 2.75,-477.818);
+29165;  Track['U'].X.Interpolate( 3.75,0);
+
+29335;  Track['U'].X.Interpolate( 3.75,-477.818);
+29365;  Track['U'].X.Interpolate( 2.75,0);
+29395;  Track['U'].X.Interpolate( 1.00, 477.818);
+29425;  Track['U'].X.Interpolate( 0.00,0);
+
+31410;  Track['U'].X.Interpolate( 0.00,1/((1/1600)-(1/-477.818)));
+31440;  Track['U'].X.Interpolate( 1.00,-1600);
+31470;  Track['U'].X.Interpolate( 2.75,1/((1/1600)-(1/477.818)));
+31500;  Track['U'].X.Interpolate( 3.75,0);
+
+32060;  Track['U'].X.Interpolate( 3.75,1/((1/1600)-(1/477.818)));
+32090;  Track['U'].X.Interpolate( 2.75,-1600);
+32120;  Track['U'].X.Interpolate( 1.00,1/((1/1600)-(1/-477.818)));
+32150;  Track['U'].X.Interpolate( 0.00,0);
+#------------------------------------------------------------------------------
+19520;  Repeater['rail_cross_1'].Begin0('cross_1',3,5,5,'BallastPC_K_5a');
+19850;  Repeater['rail_cross_1'].End();
+19520;  Track['cross_1'].X.Interpolate( 0.00, 362.828);
+        Track['cross_1'].Y.Interpolate(-0.0001);
+19545;  Track['cross_1'].X.Interpolate( 1.15, 0);
+19565;  Track['cross_1'].X.Interpolate( 2.60,-362.828);
+19590;  Track['cross_1'].X.Interpolate( 3.75,0);
+
+23675;  Repeater['rail_cross_1'].Begin0('cross_1',3,5,5,'BallastPC_K_5a');
+23725;  Repeater['rail_cross_1'].End();
+23675;  Track['cross_1'].X.Interpolate( 0.00,-362.828);
+23700;  Track['cross_1'].X.Interpolate(-1.15, 0);
+23725;  Track['cross_1'].X.Interpolate(-3.60, 0);
+
+26950;  Repeater['rail_cross_1'].Begin0('cross_1',3,5,5,'BallastPC_K_5a');
+27035;  Repeater['rail_cross_1'].End();
+26950;  Track['cross_1'].X.Interpolate( 0.00,1/((1/1000)-(1/362.828)));
+26975;  Track['cross_1'].X.Interpolate(-0.50,0);
+27050;  Track['cross_1'].X.Interpolate(-3.5,1000);
+
+27100;  Track['cross_1'].X.Interpolate(-2.75,-2400);
+27120;  Track['cross_1'].X.Interpolate(-1.75,-1200);
+27180;  Track['cross_1'].X.Interpolate(-0.05,-2400);
+27200;  Track['cross_1'].X.Interpolate( 0.00,0);
+
+29050;  Repeater['rail_cross_1'].Begin0('cross_1',3,5,5,'BallastPC_K_5a');
+29165;  Repeater['rail_cross_1'].End();
+29050;  Track['cross_1'].X.Interpolate( 3.75,0);
+
+31000;  Repeater['rail_cross_2'].Begin0('cross_2',3,5,5,'BallastPC_K_5a');
+31500;  Repeater['rail_cross_2'].End();
+31500;  Track['cross_2'].X.Interpolate( 3.75,0);
+
+31305;  Repeater['rail_cross_1'].Begin0('cross_1',3,5,5,'BallastPC_K_5a');
+31375;  Repeater['rail_cross_1'].End();
+31305;  Track['cross_1'].X.Interpolate( 3.75,1/((1/1600)-(1/362.828)));
+31330;  Track['cross_1'].X.Interpolate( 2.60,-1600);
+31350;  Track['cross_1'].X.Interpolate( 1.15,1/((1/1600)-(1/-362.828)));
+31375;  Track['cross_1'].X.Interpolate( 0.00,0);
+#------------------------------------------------------------------------------
+19475;  Track['L'].X.Interpolate( 0.00);
+23675;  Track['L'].X.Interpolate( 0.00,-362.828);
+23700;  Track['L'].X.Interpolate(-1.15, 0);
+23725;  Track['L'].X.Interpolate(-3.60, 0);
+23750;  Track['L'].X.Interpolate(-4.50);
+23775;  Track['L'].X.Interpolate( 0.00);
+
+26950;  Track['L'].X.Interpolate( 0.00);
+26950;  Track['L'].X.Interpolate(-3.75-0.00,1/((1/1000)-(1/362.828)));
+26975;  Track['L'].X.Interpolate(-3.75-0.50,0);
+27050;  Track['L'].X.Interpolate(-3.75-3.5,1000);
+
+27100;  Track['L'].X.Interpolate(-2.75,-2400);
+27120;  Track['L'].X.Interpolate(-1.75,-1200);
+27180;  Track['L'].X.Interpolate(-0.05,-2400);
+27200;  Track['L'].X.Interpolate( 0.00,0);
+#------------------------------------------------------------------------------
+19475;  Track['R'].X.Interpolate( 3.75);
+22955;  Track['R'].X.Interpolate( 3.75+0.00, 477.818);
+22985;  Track['R'].X.Interpolate( 3.75+0.95,0);
+
+23040;  Track['R'].X.Interpolate( 3.75+4.4,-2000);
+23055;  Track['R'].X.Interpolate( 3.75+5.3,-1000);
+23085;  Track['R'].X.Interpolate( 3.75+6.5,-2000);
+23100;  Track['R'].X.Interpolate( 3.75+6.8,0);
+
+23235;  Track['R'].X.Interpolate( 3.75+3.75+9.2,-5600);
+23245;  Track['R'].X.Interpolate( 3.75+3.75+9.37,-2800);
+23285;  Track['R'].X.Interpolate( 3.75+3.75+9.72,-5600);
+23295;  Track['R'].X.Interpolate( 3.75+3.75+9.725,0);
+
+23565;  Track['R'].X.Interpolate( 3.75+3.75+9.75,-2000);
+23580;  Track['R'].X.Interpolate( 3.75+3.75+9.715,-1000);
+23630;  Track['R'].X.Interpolate( 3.75+3.75+8.115,-2000);
+23645;  Track['R'].X.Interpolate( 3.75+3.75+7.19,0);
+
+23740;  Track['R'].X.Interpolate( 3.75+1.01, 477.818);
+23771.1;  Track['R'].X.Interpolate( 3.75+0.00,0);
+
+26950;  Track['R'].X.Interpolate( 3.75);
+26950;  Track['R'].X.Interpolate( 3.75+3.75);
+26975;  Track['R'].X.Interpolate( 3.75+3.75);
+27050;  Track['R'].X.Interpolate( 3.75+3.75);
+27050;  Track['R'].X.Interpolate( 3.75+3.75+(-3.50),1000);
+
+27100;  Track['R'].X.Interpolate(3.75+(-2.75),-2400);
+27120;  Track['R'].X.Interpolate(3.75+(-1.75),-1200);
+27180;  Track['R'].X.Interpolate(3.75+(-0.05),-2400);
+27200;  Track['R'].X.Interpolate(3.75+( 0.00),0);
